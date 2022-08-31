@@ -1,0 +1,16 @@
+{
+    "name": "compress",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "zip": "node src/zip.js",
+        "unzip": "node src/unzip.js",
+        "serve": "node src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "compressing": "^1.6.2"
+    }
+}
